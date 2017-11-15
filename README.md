@@ -5,8 +5,6 @@ Allows users to send tips with Bitcoin to volunteers who run Tor relays and prov
 
 This project is a rough implementation of the [Flattor](https://lists.torproject.org/pipermail/tor-talk/2013-August/029419.html) proposal made by George Kadianakis on the tor-talk mailing list. 
 
-[![tip for next commit](https://tip4commit.com/projects/847.svg)](https://tip4commit.com/github/DonnchaC/oniontip)
-
 ### Running
 
 Bitcoin addresses are generated from a secret master seed. This secure random seed should be set in the 'BITCOIN_KEY_SEED' enviroment variable before running the application. Be sure to keep a copy of the key stored securely or funds may be lost.
@@ -20,11 +18,13 @@ The application retrieves updated lists of router bandwidth data and server desc
     0,30 * * * * /var/www/oniontip.donncha.is/main.py --check
 
 ### Notice
-This project was developed at the **Dublin Bitcoin Hackathon**, July 2014 and is beta software. It likely contains bugs and it may be risky sending non-negligible donations. All bitcoin addresses are generated from a master seed and transactions are forwarded as soon as possible to minimise threats of theft or loss.
-
-If you find any bugs or experience problems with or your transactions please submit an issue on Github or email me at donncha@donncha.is.
+If you find any bugs or experience problems with or your transactions please submit an issue on Github or email me at support@smashlabs.io
 
 ### License
+Licensed under MIT License
+(c) 2017 SMASH
+
+Original License and Creator:
 Licensed under MIT License
 (c) 2014 Donncha O'Cearbhaill
 
